@@ -1,0 +1,39 @@
+        *{
+            margin:20px;
+
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .form{
+           
+        position:relative;
+        text-align: center;
+      
+        }
+        .label{
+
+            color: aliceblue;
+
+        }
+        .form h1{
+            margin-left: 450px;
+            position:relative;
+            text-align: center;
+            width:500px;
+            border-radius: 20px;
+            background-color: mediumblue;
+            color:aliceblue;
+
+        }
+        .feed-form
+        {
+            border-radius: 30px;
+            margin-top: 40px;
+            padding-top: 30px;
+            width: 400px;
+            height: 450px;
+            margin-left:35%;
+            position:relative;
+            text-align: center;
+            background-color: darkslateblue;
+        }
+   
