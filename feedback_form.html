@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed back from</title>
+    <style>
+        *
+        {
+            margin:20px;
+
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .form{
+           
+        position:relative;
+        text-align: center;
+      
+        }
+        .label{
+
+            color: aliceblue;
+
+        }
+        .form h1{
+            margin-left: 450px;
+            position:relative;
+            text-align: center;
+            width:500px;
+            border-radius: 20px;
+            background-color: mediumblue;
+            color:aliceblue;
+
+        }
+        .feed-form
+        {
+            margin-top: 40px;
+            padding-top: 30px;
+            width: 400px;
+            height: 450px;
+            margin-left:35%;
+            position:relative;
+            text-align: center;
+            background-color: darkslateblue;
+        }
+    </style>
+</head>
+<body>
+
+    <form class="form">
+        <h1> Feed back form</h1>
+        <div class="feed-form">
+            <label class="label">Full Name</label><input type="text" placeholder="Enter your name "> <br>
+            <label class="label">Email</label> <input type="email" placeholder="Enter your Email"> <br>
+            <label class="label">Phone</label> <input type="text" placeholder="Enter your Phone"> <br>
+     <label class="label">Give rating min(0), max(5)</label><input type="number" min="0" max="5" "> <br>
+     <label class="label">comments</label>
+     <textarea rows="1" cols="12" placeholder="Enter the comments here"></textarea> <br>
+     <input type="submit">
+        </div>
+
+</form>
+</body>
+</html>
